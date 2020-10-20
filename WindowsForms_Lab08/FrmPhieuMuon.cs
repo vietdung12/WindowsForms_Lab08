@@ -111,6 +111,7 @@ namespace WindowsForms_Lab08
                 MessageBox.Show("Bạn phải chọn mẫu tin cập nhật");
         }
 
+
         private void btn_Luu_Click(object sender, EventArgs e)
         {
             string ngay = String.Format("{0:MM/dd/yyyy}", dtpNgayM.Value);
